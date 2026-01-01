@@ -10,6 +10,9 @@ This lab focuses on fundamental Layer-2 and Layer-3 concepts commonly used in en
 
 ## Network Topology
 
+
+![Network Topology](screenshots/topology.png)
+
 - 1 × Cisco 1941 Router
 
 - 1 × Cisco 2960 Layer-2 Switch
@@ -35,6 +38,13 @@ Each VLAN uses a dedicated default gateway configured on router subinterfaces.
 
 **Switch Configuration**
 
+
+
+
+![Switch Configuration](screenshots/switch-config.png)
+
+
+
 - VLANs created and named
 
 - Access ports assigned to correct VLANs
@@ -49,6 +59,12 @@ Each VLAN uses a dedicated default gateway configured on router subinterfaces.
 - switchport mode trunk
 
 **Router Configuration (ROAS)**
+
+
+
+
+![Router Configuration](screenshots/router-config.png)
+
 
 - Physical interface enabled
 
@@ -75,6 +91,11 @@ Key concepts:
 - Default gateway pointing to router subinterface IP
 
 ## Verification & Testing
+
+
+
+![Ping Verification](screenshots/ping.png)
+
 
 - ICMP ping tested between devices in different VLANs
 
